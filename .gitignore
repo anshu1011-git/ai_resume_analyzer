@@ -1,4 +1,91 @@
+# =========================
+# 🔐 Environment Variables
+# =========================
 .env
-node_modules
-yarn.lock
-package-lock.json
+.env.*
+backend/.env
+frontend/.env
+
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# =========================
+# 📦 Node / React / Vite
+# =========================
+node_modules/
+frontend/node_modules/
+
+dist/
+build/
+frontend/dist/
+
+# Vite cache
+.vite/
+
+# =========================
+# 🐳 Docker
+# =========================
+*.dockerignore
+
+# =========================
+# 🧠 VS Code
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 🪟 Windows
+# =========================
+Thumbs.db
+desktop.ini
+
+# =========================
+# 🍎 Mac
+# =========================
+.DS_Store
+
+# =========================
+# 📝 Logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# 🔒 Secret / Keys
+# =========================
+*.pem
+*.key
+*.crt
+
+# =========================
+# 🧪 Testing / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# 🗂 Temporary Files
+# =========================
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# 🔥 Optional (if using)
+# =========================
+server_error.txt
